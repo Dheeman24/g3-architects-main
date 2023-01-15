@@ -26,12 +26,6 @@ header {
     margin-top: 30px;
 }
 
-/* .menu h2 {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-} */
-
 .menu ul>li {
     list-style: none;
     display: inline-block;
@@ -73,7 +67,6 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -95,7 +88,7 @@ header {
 
 .header-details img {
     width: 1000px;
-    height: 400px;
+    height: 450px;
     margin-bottom: 35px;
 }
 
@@ -122,7 +115,6 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-
     margin: 20px 20px 20px 100px;
 }
 
@@ -167,8 +159,8 @@ main {
     color: #727272;
 }
 
-
 .enjoy-section {
+    display: flex;
     padding: 100px 0px 100px 0px;
 }
 
@@ -193,14 +185,8 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-
-
-    /* Dark 03 */
-
     color: #727272;
 }
-
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -215,11 +201,7 @@ main {
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-
-    /* Dark 01 */
-
     color: #131313;
-
 }
 
 .care p {
@@ -228,11 +210,6 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-
-
-    /* Dark 03 */
-
     color: #727272;
 }
 
@@ -242,7 +219,6 @@ main {
 
 .enjoy-section-image {
     padding: 0px 50px 0px 100px;
-    /* padding: 50px; */
     width: 50%;
     position: relative;
 }
@@ -271,6 +247,7 @@ main {
 }
 
 .small-cards {
+    display: flex;
     margin: 50px;
 }
 
@@ -278,14 +255,8 @@ main {
     border: 2px solid #FF900E;
     border-radius: 10px;
     padding: 20px 15px 15px 15px;
-
     width: 150px;
     height: 150px;
-
-
-
-    /* identical to box height */
-
     text-align: center;
 }
 
@@ -303,10 +274,6 @@ main {
 .small-card p {
     font-weight: 600;
     font-size: 15px;
-
-
-    /* Dark 03 */
-
     color: #727272;
 }
 
@@ -318,11 +285,6 @@ main {
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
-    /* identical to box height */
-
-
-    /* Dark 01 */
-
     color: #131313;
 }
 
@@ -330,14 +292,12 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
-
-
-    /* Dark 03 */
-
     color: #727272;
 }
 
+.sponsors {
+    display: flex;
+}
 
 .our-sponspors {
     margin: 100px 0px 100px 0px;
@@ -348,11 +308,6 @@ main {
     font-size: 45px;
     line-height: 53px;
     text-align: center;
-    /* identical to box height */
-
-
-    /* Dark 01 */
-
     color: #131313;
 }
 
@@ -360,12 +315,8 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
     text-align: center;
     margin: 24px 0px 50px 0px;
-
-    /* Dark 03 */
-
     color: #727272;
 
 }
@@ -378,58 +329,21 @@ main {
     border-radius: 10px;
     height: 100px;
     width: 1100px;
-    /* padding-top: 45px; */
     background-color: #FFF4E7;
     color: #424242;
     margin-bottom: 10px;
 }
-.footer p{
+
+.footer p {
     padding-top: 45px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.enjoy-section {
-    display: flex;
-}
-
-.small-cards {
-    display: flex;
-}
-
-.sponsors {
-    display: flex;
-}
-
-
-.height {
-    display: none;
-}
-
-
 @media screen and (max-width: 576px) {
-    *{
+    * {
         text-align: center;
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
         text-align: center;
     }
@@ -439,10 +353,10 @@ main {
         color: #424242;
         font-weight: 500;
         font-size: 18px;
-       padding-right: 5px;
+        padding-right: 5px;
         text-align: center;
-       
-    
+
+
     }
 
     .header-details {
@@ -451,6 +365,7 @@ main {
         text-align: center;
         margin-top: 40px;
     }
+
     .header-details img {
         width: 100%;
         margin-bottom: 35px;
@@ -460,27 +375,30 @@ main {
         width: 100%;
         align-items: center;
     }
+
     .features {
         flex-direction: column;
-        
+
     }
 
     .features-images {
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
-    
-       margin: 5px;
+
+        margin: 5px;
     }
-    
+
     .f-img img {
         height: 100%;
         width: 100%;
         align-items: center;
     }
+
     .menu ul {
-       
+
         padding-left: 0px;
     }
+
     .features-text p {
         font-size: 16px;
         font-weight: 400;
@@ -499,24 +417,29 @@ main {
         width: 90%;
 
     }
-    .enjoy-section-title h3{
+
+    .enjoy-section-title h3 {
         text-align: center;
     }
-    .enjoy-section-image{
+
+    .enjoy-section-image {
         width: 60%;
     }
-    .small-cards{
+
+    .small-cards {
         flex-direction: column;
         gap: 10px;
     }
-    .sponsors{
+
+    .sponsors {
         flex-wrap: wrap;
         gap: 20px;
-        
+
     }
-    .footer{
+
+    .footer {
         width: 100%;
         padding-top: auto;
     }
-    
+
 }
