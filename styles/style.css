@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* --------------------
+-----Header start------
+----------------------- */
+header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu h {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.menu ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+.header-details {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin-bottom: 45px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header-details h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+}
+
+.header-details p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.explore-more-button {
+    background-color: #FF900E;
+    color: aliceblue;
+    border: none;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+
+.header-details img {
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 35px;
+}
+
+/*------------------------
+--------header end--------
+-------------------------- */
+main {
+    width: 1100px;
+}
+
+/*------------------------------------------------
+---------Feature section start here---------------
+-------------------------------------------------*/
+.features {
+    display: flex;
+    align-items: center;
+}
+
+.features>div {
+    flex: 1;
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+    margin: 20px 20px 20px 100px;
+}
+
+.f-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.feature-text-first {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #727272;
+}
+
+.feature-text-second {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #131313;
+}
+
+.feature-text-third {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF900E;
+}
+
+.features-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #727272;
+}
+
+
+.enjoy-section {
+    padding: 100px 0px 100px 0px;
+}
+
+.enjoy-section-details {
+    width: 50%;
+}
+
+.enjoy-section-title h3 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #131313;
+}
+
+.enjoy-section-title p {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 25px;
+    margin: 20px 0px 20px 0px;
+}
+
+.card h6 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    /* Dark 01 */
+
+    color: #131313;
+
+}
+
+.care p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.enjoy-section-image {
+    padding: 0px 50px 0px 100px;
+    /* padding: 50px; */
+    width: 50%;
+    position: relative;
+}
+
+.enjoy-section-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.exprience-button {
+    width: 258px;
+    height: 109px;
+    position: absolute;
+    bottom: -40px;
+    left: 60px;
+    text-align: center;
+    background: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.exprience-button span {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.small-cards {
+    margin: 50px;
+}
+
+.small-card {
+    border: 2px solid #FF900E;
+    border-radius: 10px;
+    padding: 20px 15px 15px 15px;
+
+    width: 150px;
+    height: 150px;
+
+
+
+    /* identical to box height */
+
+    text-align: center;
+}
+
+.small-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.small-card h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+
+.small-card p {
+    font-weight: 600;
+    font-size: 15px;
+
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+
+.some-fact {
+    margin-top: 50px;
+}
+
+.some-fact-text h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    /* Dark 01 */
+
+    color: #131313;
+}
+
+.some-fact-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+
+
+.our-sponspors {
+    margin: 100px 0px 100px 0px;
+}
+
+.our-sponspors h3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    /* identical to box height */
+
+
+    /* Dark 01 */
+
+    color: #131313;
+}
+
+.our-sponspors p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: center;
+    margin: 24px 0px 50px 0px;
+
+    /* Dark 03 */
+
+    color: #727272;
+
+}
+
+.footer {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 10px;
+    height: 100px;
+    width: 1100px;
+    /* padding-top: 45px; */
+    background-color: #FFF4E7;
+    color: #424242;
+    margin-bottom: 10px;
+}
+.footer p{
+    padding-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.enjoy-section {
+    display: flex;
+}
+
+.small-cards {
+    display: flex;
+}
+
+.sponsors {
+    display: flex;
+}
+
+
+.height {
+    display: none;
+}
